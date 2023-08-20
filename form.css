@@ -1,0 +1,139 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body, html{
+    width: 100%;
+    height: 100%;
+}
+#maindiv{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+#leftdiv{
+    width: 60%;
+    height: 100%;
+    background-color: black;
+    background-image: url("bg.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#rightdiv{
+    width: 40%;
+    height: 100%;
+}
+#fname{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-left: 20%;
+    margin-top: 50%;
+}
+#inputs{
+    margin-top: 1%;
+    width: 60%;
+    height: 40px;
+    margin-left: 20%;
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding-left: 2%;
+    font-size: 18px;
+}
+#button1{
+    width: 60%;
+    height: 50px;
+    border-radius: 8px;
+    background-image: linear-gradient(to right, #174504, black, #174504);
+    color: white;
+    font-size: 20px;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+#button2{
+    width: 60%;
+    height: 50px;
+    border-radius: 8px;
+    font-size: 20px;
+    margin-left: 20%;
+    margin-top: 5%;
+    background-color: white;
+    border: 1px solid grey;
+}
+#google{
+    width: 6%;
+    height: 40%;
+    padding-top: 1%;
+    margin-right: 2%;
+}
+#button3{
+    width: 27.5%;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-left: 20%;
+    margin-top: 5%;
+    background-color: white;
+    border: 1px solid grey;
+}
+#radio{
+    margin-right: 5%;
+}
+#button4{
+    width: 27.5%;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-left: 5%;
+    margin-top: 5%;
+    background-color: white;
+    border: 1px solid grey;
+}
+#heading1{
+    margin-left: 20%;
+    font-size: 50px;
+}
+#text1{
+    font-size: 20px;
+    margin-left: 20%;
+    margin-top: 2%;
+    color: grey;
+}
+#heading2{
+    color: white;
+    margin-top: 20%;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 90px;
+    font-weight: lighter;
+}
+#heading3{
+    color: white;
+    margin-top: 3%;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 50px;
+    font-weight: lighter;
+}
+#button5{
+    width: 20%;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-left: 20%;
+    margin-top: 2%;
+    background-color: rgb(226, 226, 226);
+    border: 1px solid rgb(226, 226, 226);
+}
+#button6{
+    width: 20%;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-left: 2%;
+    margin-top: 2%;
+    background-color: rgb(226, 226, 226);
+    border: 1px solid rgb(226, 226, 226);
+}
